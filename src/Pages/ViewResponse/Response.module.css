@@ -1,0 +1,80 @@
+.container {
+  padding: 20px;
+  background-color: #18181b;
+  color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.responseTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.spinner {
+  width: 56px;
+  height: 56px;
+  margin-top: 20%;
+  margin-left: 50%;
+  border-radius: 50%;
+  background: conic-gradient(#0000 10%,#474bff);
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+  animation: spinner-zp9dbg 1s infinite linear;
+}
+
+@keyframes spinner-zp9dbg {
+  to {
+     transform: rotate(1turn);
+  }
+}
+
+.responseTable th,
+.responseTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: white;
+}
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.data div {
+  background-color: #323232;
+  padding: 40px 50px;
+  border-radius: 5px;
+}
+.noResponses {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: #666;
+  text-align: center;
+}
+.data {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.data div {
+  background-color: #323232;
+  color: white;
+}
+.dataeach {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: start;
+  font-size: 15px;
+  text-align: left;
+}
+.serial{
+  display: flex;
+  gap: 5px;
+}
