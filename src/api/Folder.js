@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEND_URL = 'https://form-bot-backend-nine.vercel.app';
+const BACKEND_URL = 'https://form-bot-backend-nine.vercel.app/';
 
 const createFolder = async (foldername, usersId) => {
   const receivedToken = localStorage.getItem('token'); 
